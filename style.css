@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.work{
+    width: 100%;
+    padding: 5vw;
+    display: flex;
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.heading{
+    font-size: 5vw;
+    font-weight:700 ;
+    padding: 2vw;
+}
+
+.summary{
+    font-size: 3.5vw;
+    padding: 2vw;
+}
+
+.btn{
+    background-color: rgb(233, 75, 75);
+    padding: 1vw;
+    border: 1px solid rgb(130, 130, 130);
+    height: fit-content;
+}
+
+.inputDiv{
+    display: none;
+}
+
+@media screen and (min-width: 450px){
+
+    .nav{
+        height: 8vw;
+        width: 100%;
+    }
+    .head{
+        height: 5vw;
+        font-size: 2vw;
+        text-align: center;
+    }
+    .para{
+        font-size: 1vw;
+    }
+    .addList{
+        font-size: 5vw;
+    }
+    .inputDiv{
+        position: absolute;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 50vw;
+        font-size: 1.5vw;
+    }
+    .container{
+        padding: 3vw;
+    }
+    .work{
+        padding: 2vw;
+    }
+    .heading{
+        font-size: 2vw;
+        font-weight: 800;
+        padding: 1vw;
+    }
+    .summary{
+        font-size: 1vw;
+        padding: 1vw;
+    }
+}
